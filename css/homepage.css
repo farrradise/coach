@@ -1,0 +1,164 @@
+
+/*=================mise en page générale==================*/
+
+@font-face {
+  font-family: 'shapup';
+  src: url('../font/Slave.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin-top: 0;
+}
+
+/*=================mise en page du header==================*/
+
+header {
+  border: 1px solid; /* pour supprimer les marges*/
+  background-image: url(../img/bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: grayscale(80%) opacity(80%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(80%) opacity(80%);
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+header h1, header h2 {
+  color: white;
+  margin: 0 0 0 20px;
+
+}
+
+header h1 {
+  font-family: 'shapup';
+  font-size: 5.8em;
+}
+
+header h2 {
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+header nav {
+  /*display: flex;*/
+  /*flex-flow: row;*/
+  /*justify-content: center;*/
+  width: 100%;
+  position: absolute!important;
+  bottom: 0;
+  height: 50px;
+  /*background-color: inherit!important;*/
+}
+
+header nav button {
+  width: 100%;
+}
+
+
+header nav button i {
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-size: 2em!important;
+}
+
+header nav button:hover i {
+  background-color: white;
+  color: gray;
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+
+header nav div div {
+  border: 1px solid green;
+}
+
+header nav > div > div {
+  background-color: white;
+  /*position: absolute;*/
+}
+
+/*
+header a:hover {
+  text-decoration: none;
+}*/
+/*
+header i {
+  color: white;
+  background-color: gray;
+  /*height: 40px;*/
+  /*filter :none;*/
+  /*border: 5px solid white;*/
+  /*width: 8%;*/
+  /*min-width: 40px;*/
+  /*margin: auto!important;*/
+  /*margin: 5px auto!important;*/
+  /*height: 40px;*/
+  /*-webkit-filter: grayscale(50%) opacity(100%); /* Safari 6.0 - 9.0 */
+  /*filter: grayscale(50%) opacity(100%);*/
+/*}*/
+
+/*=================mise en page de main==================*/
+
+
+/*=================mise en page de footer==================*/
+
+/*==========================
+MISE EN PAGE SMARTPHONE LARGE
+==========================*/
+
+
+@media (min-width:450px) {
+
+  /*=================mise en page du header==================*/
+  header {
+    background-image: url(../img/bg4.jpg);
+    background-position: right;
+    /*margin-left: 50px;*/
+  }
+
+}
+
+/*==================
+MISE EN PAGE TABLET
+==================*/
+
+
+@media (min-width:768px) {
+
+  /*=================mise en page du header==================*/
+  header {
+    background-image: url(../img/bg.jpg);
+    background-position: right;
+    /*margin-left: 50px;*/
+  }
+
+  /*=================mise en page du main ==================*/
+
+
+
+}
+
+/*==================
+MISE EN PAGE LAPTOP
+==================*/
+
+
+@media (min-width:970px) {
+
+  /*=================mise en page du header==================*/
+
+
+  /*=================mise en page du main==================*/
+
+
+  /*=================mise en page du aside==================*/
+
+
+  /*=================mise en page du footer==================*/
+
+
+}
