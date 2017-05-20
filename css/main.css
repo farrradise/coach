@@ -14,7 +14,7 @@
 
 header > nav > a {
   padding: 0!important;
-  min-width: 540px;
+  min-width: 440px;
   margin-top: -10px!important;
 }
 
@@ -22,7 +22,6 @@ header h1, header h2 {
   color: white;
   display: inline-block;
   margin: 0 0 0 20px;
-  /*z-index: 15;*/
 }
 
 
@@ -34,11 +33,13 @@ header h1 {
 header h2 {
   font-family: sans-serif;
   font-size: 0.8em;
+  position: relative;
+  top: -10px;
 }
 
-nav {
-  z-index: 4;
-  height: 70px;
+nav > div {
+  width: 200px!important;
+  margin-left: auto;
 }
 
 /*=================mise en page de main==================*/

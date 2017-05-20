@@ -8,18 +8,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="icon" href="favicon.ico">
+        <link rel="icon" href="../favicon.ico">
         <link rel="stylesheet" href="../css/bootstrap.css">
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
 
 
-    <!-- ecriture du header -->
-    <header>
-      <nav class="fixed-top navbar navbar-toggleable-sm navbar-inverse bg-inverse">
+    <!-- ecriture du header : pb de menu ahhhhhhhhhhh ca se déroule pas-->
+    <header class=" ">
+      <nav class="navbar navbar-toggleable-sm fixed-top navbar-inverse bg-inverse">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,18 +28,25 @@
           <h2 class="hidden-md-down">Soyez-<strong>vous</strong>, en <strong>mieux</strong>.</h2>
         </a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="container navbar-nav mr-auto">
-            <a class="nav-item nav-link" href="presentation.html">welcome</a>
-            <a class="nav-item nav-link" href="tarif.html">prix</a>
-            <a class="nav-item nav-link" href="contact.html">contact</a>
-          </div>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"> <a class="nav-link" href="presentation.html">welcome</a></li>
+            <li class="nav-item"> <a class="nav-link" href="tarif.html">prix</a></li>
+            <li class="nav-item"> <a class="nav-link" href="contact.html">contact</a></li>
+          </ul>
         </div>
       </nav>
 
     </header>
 
+
+    <footer class="hidden-lg-down">
+      <p>
+          <a href="#">Mentions légales</a> | <a href="#">Plan du site</a>
+      </p>
+    </footer>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/bootstrap.js"></script>
+        <script src="../js/main.js"></script>
+        <script src="../js/bootstrap.js"></script>
     </body>
 </html>
