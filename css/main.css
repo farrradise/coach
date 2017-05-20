@@ -9,7 +9,6 @@
 }
 
 
-
 /*=================mise en page du header==================*/
 
 header > nav > a {
@@ -75,6 +74,10 @@ MISE EN PAGE LAPTOP
 
   /*=================mise en page du main==================*/
 
+  body main {
+    margin: 100px 0 0 0!important
+  }
+
 
   /*=================mise en page du aside==================*/
 
@@ -83,9 +86,13 @@ MISE EN PAGE LAPTOP
 
 
   footer, footer a {
+    width: 100%;
     text-align: right;
     font-size: 0.8em;
     color: white;
+    margin: 0!important;
+    border: 1px solid rgb(41,43,44);
+    /*border: 1px solid red;*/
   }
 
   footer a:hover {
