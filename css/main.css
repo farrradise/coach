@@ -51,12 +51,28 @@ body main {
 
 body main #pres {
   width: auto;
-  margin: 0 auto;
+  margin: 15px auto;
 }
 
 body main #pres .carousel-inner {
   max-height: 310px;
   margin: auto;
+}
+
+#pres .carousel-inner > div > div {
+  background-color: gray;
+  opacity: 0.75;
+  width: 100%;
+  padding-top: 0;
+  position: absolute;
+  left: 0;
+  max-height: 45%;
+}
+
+
+#pres .carousel-inner > div > div h3,
+#pres .carousel-inner > div > div p {
+  margin: 0!important;
 }
 
 /*==================
