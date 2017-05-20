@@ -46,23 +46,29 @@ nav > div {
 /*=================mise en page de main==================*/
 
 body main {
-  margin: 100px 0 0 0!important
+  margin: 100px 0 0 0!important;
 }
 
-body main #pres {
+#pres {
   width: auto;
   margin: 15px auto;
 }
 
-body main #pres .carousel-inner {
+#pres .carousel-inner {
   max-height: 310px;
   margin: auto;
 }
 
+
+#pres .carousel-inner img {
+  width: 100%;
+}
+
+
 #pres .carousel-inner > div > div {
   background-color: gray;
   opacity: 0.75;
-  width: 100%;
+  min-width: 100%;
   padding-top: 0;
   position: absolute;
   left: 0;
@@ -72,7 +78,21 @@ body main #pres .carousel-inner {
 
 #pres .carousel-inner > div > div h3,
 #pres .carousel-inner > div > div p {
-  margin: 0!important;
+  margin: 0;
+}
+
+#pres > article > div {
+  margin: 20px auto;
+  text-align: justify;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#pres > article img {
+  align-content: center;
+  margin: auto;
+  /*max-height: 250px!important;*/
+  max-width: 250px;
 }
 
 /*==================
