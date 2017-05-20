@@ -45,6 +45,19 @@ nav > div {
 
 /*=================mise en page de main==================*/
 
+body main {
+  margin: 100px 0 0 0!important
+}
+
+body main #pres {
+  width: auto;
+  margin: 0 auto;
+}
+
+body main #pres .carousel-inner {
+  max-height: 310px;
+  margin: auto;
+}
 
 /*==================
 MISE EN PAGE TABLET
@@ -57,6 +70,12 @@ MISE EN PAGE TABLET
 
 
   /*=================mise en page du main ==================*/
+
+  #pres > div:first-child .carousel-inner {
+    width: 500px;
+    margin: auto!important;
+  }
+
 
 
 
@@ -74,10 +93,9 @@ MISE EN PAGE LAPTOP
 
   /*=================mise en page du main==================*/
 
-  body main {
-    margin: 100px 0 0 0!important
-  }
-
+    #pres > div:first-child > a {
+      background-color: rgb(41,43,44);
+    }
 
   /*=================mise en page du aside==================*/
 
