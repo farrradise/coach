@@ -36,6 +36,7 @@ header h2 {
   top: -10px;
 }
 
+
 nav > div {
   width: 200px!important;
   margin-left: auto;
@@ -124,16 +125,12 @@ MISE EN PAGE LAPTOP
 
 @media (min-width:970px) {
 
-  /*=================mise en page du header==================*/
-
 
   /*=================mise en page du main==================*/
 
     #pres > div:first-child > a {
       background-color: rgb(41,43,44);
     }
-
-  /*=================mise en page du aside==================*/
 
 
   /*=================mise en page du footer==================*/
