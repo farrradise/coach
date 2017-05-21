@@ -100,8 +100,8 @@ body main {
 }
 
 
-#tarif section iframe {
-  border: 9px solid rgb(255,102,0)!important;
+main iframe {
+  border: 9px solid rgb(240,173,78)!important;
 }
 
 #contact > div:nth-child(2) a i{
@@ -112,15 +112,17 @@ body main {
   text-align: center;
 }
 
+#contact iframe {
+  width: 90%;
+  height: 350px;
+}
+
 /*==================
 MISE EN PAGE TABLET
 ==================*/
 
 
 @media (min-width:768px) {
-
-  /*=================mise en page du header==================*/
-
 
   /*=================mise en page du main ==================*/
 
@@ -139,10 +141,6 @@ MISE EN PAGE LAPTOP
 
 @media (min-width:970px) {
 
-
-  /*=================mise en page du main==================*/
-
-
   /*=================mise en page du footer==================*/
 
 
@@ -153,7 +151,6 @@ MISE EN PAGE LAPTOP
     color: white;
     margin: 0!important;
     border: 1px solid rgb(41,43,44);
-    /*border: 1px solid red;*/
   }
 
   footer a:hover {
