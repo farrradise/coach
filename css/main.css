@@ -96,6 +96,19 @@ body main {
   max-width: 250px;
 }
 
+
+#pres > div:first-child > a {
+  background-color: rgb(41,43,44);
+}
+
+#tarif {
+  text-align: justify;
+}
+
+#tarif section iframe {
+  border: 9px solid rgb(255,102,0)!important;
+}
+
 /*==================
 MISE EN PAGE TABLET
 ==================*/
@@ -114,8 +127,6 @@ MISE EN PAGE TABLET
   }
 
 
-
-
 }
 
 /*==================
@@ -127,10 +138,6 @@ MISE EN PAGE LAPTOP
 
 
   /*=================mise en page du main==================*/
-
-    #pres > div:first-child > a {
-      background-color: rgb(41,43,44);
-    }
 
 
   /*=================mise en page du footer==================*/
