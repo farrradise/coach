@@ -1,14 +1,14 @@
-Exercice Archiduchesse
+Exercice Coach sportif
 ======================
 
-Reproduction d'une partie du site de chaussettes made in France
+Reproduction d'une partie du site vitrine pour un coach sportif 
 --------------------------------------------------------
 
 Html & CSS. Et un peu de JS avec bootstrap
 
 Objectifs de la semaine :
 
-*L'exercice consiste à produire un site vitrine de coach sportive en limitant au maximum le CSS en direct, la contrainte principale réside dans l'obligatoin d'utiliser le framework __bootstrap.*
+*L'exercice consiste à produire un site vitrine de coach sportive en limitant au maximum le CSS en direct, la contrainte principale réside dans l'obligatoin d'utiliser le framework __bootstrap__.*
 
 Cette reproduction comprendra :
 * La page d’accueil
